@@ -1,0 +1,201 @@
+.masuk2 {
+  position: relative;
+  font-weight: 800;
+}
+.deskripsi3,
+.pastikan-gunakan-akun1 {
+  width: 402px;
+  display: flex;
+  align-items: center;
+}
+.pastikan-gunakan-akun1 {
+  position: relative;
+  font-size: var(--p2-size);
+  font-family: var(--p2);
+  color: var(--color-gray-900);
+  justify-content: center;
+}
+.deskripsi3 {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.componentinput5,
+.email2 {
+  font-size: var(--font-size-base);
+}
+.email2 {
+  position: relative;
+  line-height: 140%;
+  font-weight: 600;
+  font-family: var(--heading-4);
+  color: var(--black);
+  text-align: left;
+}
+.componentinput5 {
+  border: 1px solid var(--color-gray-700);
+  font-family: var(--p2);
+  background-color: var(--color-white2);
+  border-radius: var(--br-xs);
+  box-sizing: border-box;
+  width: 404px;
+  height: 60px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs);
+  align-items: center;
+  justify-content: center;
+}
+.email-container,
+.frame-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-xs);
+}
+.frame-container {
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+.lupa-password1 {
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  font-family: var(--heading-4);
+  color: var(--color-gray-1100);
+  text-align: left;
+}
+.form-input1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.essentional-icon8 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  display: none;
+}
+.text7 {
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 140%;
+  font-weight: 600;
+  font-family: var(--heading-4);
+  color: var(--color-white2);
+  text-align: left;
+}
+.component4,
+.text-inner {
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.component4 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs);
+  background-color: var(--brand-primary);
+  border-radius: var(--br-sm);
+  width: 407px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xs);
+}
+.text-inner {
+  position: relative;
+  border-top: 1px solid var(--color-gray-600);
+  width: 79px;
+  height: 1px;
+}
+.atau-daftarkan-bisnis1 {
+  position: relative;
+  font-weight: 600;
+}
+.text8 {
+  width: 407px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.text9 {
+  position: relative;
+  line-height: 140%;
+  font-weight: 600;
+}
+.component5 {
+  border-radius: var(--br-sm);
+  border: 1px solid var(--brand-secondary);
+  box-sizing: border-box;
+  width: 407px;
+  height: 60px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xs);
+  text-align: left;
+  color: var(--brand-secondary);
+}
+.button3,
+.deskripsi-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.button3 {
+  align-items: flex-start;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-600);
+}
+.deskripsi-group {
+  position: absolute;
+  top: 146px;
+  left: 517px;
+  align-items: center;
+  gap: var(--gap-5xl);
+}
+.container-icon2 {
+  position: relative;
+  width: 62px;
+  height: 65px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.button4 {
+  position: absolute;
+  top: 52px;
+  left: 80px;
+  width: 188px;
+  height: 68px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  text-align: left;
+  font-size: var(--font-size-2xl);
+  color: var(--secondary-color);
+}
+.login1 {
+  position: relative;
+  background-color: var(--color-gray-100);
+  width: 100%;
+  height: 900px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--heading-3-size);
+  color: var(--color-gray-1400);
+  font-family: var(--heading-4);
+}

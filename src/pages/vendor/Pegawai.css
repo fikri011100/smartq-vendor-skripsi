@@ -1,0 +1,10 @@
+.pegawai-img-wrapper {
+  max-width: 555px;
+  margin: 8px;
+}
+
+.pegawai-img {
+  max-width: 95%;
+  justify-content: center;
+  align-items: center;
+}

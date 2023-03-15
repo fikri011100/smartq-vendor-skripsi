@@ -1,0 +1,216 @@
+.daftar {
+  position: relative;
+  font-weight: 800;
+}
+.deskripsi1,
+.langkah-1 {
+  width: 402px;
+  display: flex;
+  align-items: center;
+}
+.langkah-1 {
+  position: relative;
+  font-size: var(--p2-size);
+  font-family: var(--p2);
+  color: var(--color-gray-900);
+  justify-content: center;
+}
+.deskripsi1 {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+  text-align: center;
+}
+.email1 {
+  position: relative;
+  line-height: 140%;
+  font-weight: 600;
+}
+.componentinput2,
+.email-group {
+  display: flex;
+  justify-content: center;
+}
+.componentinput2 {
+  border: 1px solid var(--color-gray-700);
+  font-family: var(--p2);
+  font-size: var(--font-size-base);
+  background-color: var(--color-white2);
+  border-radius: var(--br-xs);
+  box-sizing: border-box;
+  width: 404px;
+  height: 60px;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: var(--padding-xs);
+  align-items: center;
+}
+.email-group {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-2xs);
+  color: var(--black);
+}
+.componentinput3,
+.frame-child {
+  font-size: var(--font-size-base);
+  display: flex;
+  justify-content: center;
+}
+.frame-child {
+  border: 0;
+  font-weight: 600;
+  font-family: var(--heading-4);
+  background-color: transparent;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.componentinput3 {
+  border: 1px solid var(--dark-gray);
+  font-family: var(--p2);
+  background-color: var(--color-white2);
+  align-self: stretch;
+  border-radius: var(--br-xs);
+  box-sizing: border-box;
+  height: 53px;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: var(--padding-xs);
+  align-items: center;
+}
+.password-group {
+  width: 404px;
+  height: 79px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+}
+.konfirmasi-password {
+  position: relative;
+  font-weight: 600;
+}
+.frame-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+  font-size: var(--font-size-base);
+  color: var(--text-primary);
+}
+.essentional-icon4 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  display: none;
+}
+.text5 {
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 140%;
+  font-weight: 600;
+  font-family: var(--heading-4);
+  color: var(--color-white2);
+  text-align: left;
+}
+.component2,
+.sudah-memiliki-akun {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.component2 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-2xs);
+  background-color: var(--brand-primary);
+  border-radius: var(--br-sm);
+  width: 407px;
+  height: 60px;
+  flex-direction: row;
+  box-sizing: border-box;
+  justify-content: center;
+  gap: var(--gap-2xs);
+}
+.sudah-memiliki-akun {
+  position: relative;
+  width: 181px;
+}
+.component3,
+.deskripsi2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.component3 {
+  border-radius: var(--br-sm);
+  width: 57px;
+  height: 25px;
+  flex-shrink: 0;
+  padding: var(--padding-2xs);
+  box-sizing: border-box;
+  gap: var(--gap-2xs);
+  color: var(--brand-tertiary);
+  font-family: var(--heading-4);
+}
+.deskripsi2 {
+  width: 402px;
+  gap: var(--gap-3xs);
+}
+.button1,
+.deskripsi-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.button1 {
+  justify-content: center;
+  gap: var(--gap-lg);
+  font-size: var(--p2-size);
+  color: var(--color-gray-1300);
+  font-family: var(--p2);
+}
+.deskripsi-parent {
+  position: absolute;
+  top: 133px;
+  left: 517px;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+}
+.container-icon1 {
+  position: relative;
+  width: 62px;
+  height: 65px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.button2 {
+  position: absolute;
+  top: 52px;
+  left: 80px;
+  width: 188px;
+  height: 68px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  font-size: var(--font-size-2xl);
+  color: var(--secondary-color);
+}
+.daftar-profil {
+  position: relative;
+  background-color: var(--color-gray-100);
+  width: 100%;
+  height: 900px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--heading-3-size);
+  color: var(--color-gray-1400);
+  font-family: var(--heading-4);
+}

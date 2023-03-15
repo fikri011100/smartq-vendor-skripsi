@@ -1,0 +1,25 @@
+@use "../main";
+
+.btn {
+  padding: 8px 20px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  white-space: nowrap;
+}
+
+.btn-primary {
+  background-color: main.$primary-color;
+
+  :hover {
+    background-color: main.$secondary-color !important;
+  }
+}
+
+.btn-secondary {
+  background-color: main.$secondary-color;
+
+  :hover {
+    background-color: main.$light-color;
+  }
+}

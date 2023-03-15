@@ -1,0 +1,27 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.btn {
+  padding: 8px 20px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  white-space: nowrap;
+}
+
+.btn-primary {
+  background-color: #82ccf2;
+}
+.btn-primary :hover {
+  background-color: #4266b0 !important;
+}
+
+.btn-secondary {
+  background-color: #4266b0;
+}
+.btn-secondary :hover {
+  background-color: #fefefe;
+}
+
+/*# sourceMappingURL=button.css.map */

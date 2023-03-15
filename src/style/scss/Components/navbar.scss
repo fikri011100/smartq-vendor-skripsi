@@ -1,0 +1,44 @@
+@use "../main";
+
+.landing-navbar {
+  background-color: main.$primary-color;
+
+  .navbar-logo {
+    color: main.$light-color;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+
+    .logo {
+      width: 46px;
+      margin-right: 10px;
+    }
+  }
+
+  .navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+
+    .navbar-group {
+      margin-inline: 12px;
+    }
+  }
+
+  :hover {
+    color: main.$secondary-color !important;
+  }
+}
+
+.nav-group {
+  margin-right: 5%;
+
+  .navbar-item {
+    color: white !important;
+    font-size: 18px;
+  }
+  :hover {
+    color: main.$secondary-color !important;
+  }
+}

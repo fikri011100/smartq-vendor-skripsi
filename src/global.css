@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --p2: Manrope;
+  --font-inherit: inherit;
+  --heading-3: Sora;
+
+  /* font sizes */
+  --font-size-xs: 12px;
+  --font-size-sm: 13px;
+  --font-size-base: 14px;
+  --font-size-lg: 16px;
+  --p2-size: 18px;
+  --font-size-2xl: 20px;
+  --font-size-3xl: 24px;
+  --heading-4-size: 30px;
+  --heading-3-size: 36px;
+
+  /* Colors */
+  --color-gray-100: #fcfcfc;
+  --color-white: #fbfbfb;
+  --color-gray-300: #fafafa;
+  --color-gray-400: #eee;
+  --neutral-gray-2: #e2e2e2;
+  --color-gray-600: #b7b8bb;
+  --neutral-gray-0: #b3b3b3;
+  --dark-gray: #a6abc8;
+  --color-gray-900: #676d70;
+  --secondary-color: #4266b0;
+  --text-primary: #373737;
+  --color-gray-1200: #1a242a;
+  --color-white2: #fff;
+  --color-blue: #4e36e7;
+  --brand-secondary: #0079ba;
+  --brand-tertiary: #4371e2;
+  --brand-primary: #294ea5;
+  --black: #000;
+  --color-brown: #ef4e4e;
+  --color-green-100: #2f970b;
+
+  /* Gaps */
+  --gap-0: 0px;
+  --gap-3xs: 2px;
+  --gap-2xs: 4px;
+  --gap-xs: 8px;
+  --gap-sm: 12px;
+  --gap-md: 16px;
+  --gap-lg: 21px;
+  --gap-xl: 24px;
+  --gap-2xl: 32px;
+  --gap-3xl: 737px;
+  --gap-4xl: 54px;
+  --gap-5xl: 45px;
+
+  /* Paddings */
+  --padding-3xs: 4px;
+  --padding-2xs: 8px;
+  --padding-xs: 12px;
+  --padding-sm: 16px;
+  --padding-md: 19px;
+  --padding-lg: 20px;
+  --padding-xl: 24px;
+  --padding-2xl: 40px;
+  --padding-3xl: 61px;
+
+  --padding-new-4xs: 4px;
+  --padding-new-3xs: 8px;
+  --padding-new-2xs: 12px;
+  --padding-new-xs: 16px;
+  --padding-new-sm: 19px;
+  --padding-new-md: 20px;
+  --padding-new-lg: 24px;
+  --padding-new-xl: 32px;
+
+  /* border radiuses */
+  --br-sm: 12px;
+  --br-xs: 12px;
+  --br-md: 16px;
+  --br-xd: 25px;
+  --br-lg: 50px;
+
+  /* Effects */
+  --card-shadow: 0px 2px 10px rgba(51, 51, 51, 0.1);
+}

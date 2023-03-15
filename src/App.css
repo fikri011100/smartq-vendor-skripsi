@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", sans-serif;
+}
+
+.btn-primary {
+  width: 100px;
+  background: #4266b0 !important;
+  border: 2px solid #4266b0 !important;
+  color: #fff;
+  font-weight: bold !important;
+}
+
+.btn-primary:hover {
+  background: #82ccf2 !important;
+  border: 2px solid #82ccf2 !important;
+}
+
+.btn-secondary {
+  width: 100px;
+  background: transparent !important;
+  border: 2px solid #4266b0 !important;
+  color: #4266b0 !important;
+  font-weight: bold !important;
+}
+
+.btn-secondary:hover {
+  background: #82ccf2 !important;
+  border: 2px solid #82ccf2 !important;
+  color: #fff !important;
+}
+
+.primary {
+  color: #4266b0 !important;
+}
+
+.light {
+  color: #ffff !important;
+}

@@ -1,0 +1,105 @@
+@use "main";
+
+#main {
+  margin-top: 76px;
+}
+
+.dark-bg {
+  background-color: main.$primary-color;
+  color: main.$light-color;
+}
+
+.light-bg {
+  background-color: main.$light-color;
+  color: main.$secondary-color;
+}
+
+.landing-section {
+  padding: 120px 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .container {
+    padding: main.$container-padding;
+
+    .landing-text-wrapper {
+      max-width: 540px;
+      padding-top: 0;
+      padding-bottom: 60px;
+
+      .landing-header {
+        margin-bottom: 8px;
+        font-weight: bold;
+        line-height: 1.1;
+        font-size: main.$header-size;
+      }
+
+      .landing-text {
+        max-width: 440px;
+        margin-bottom: 32px;
+        font-size: main.$text-size;
+      }
+
+      .icon-tray {
+        .landing-icon {
+          font-size: 38px;
+          color: main.$secondary-color;
+          margin-right: 16px;
+        }
+
+        :hover {
+          color: main.$primary-color;
+        }
+      }
+    }
+
+    .landing-img-wrapper {
+      max-width: 555px;
+
+      .landing-img {
+        max-width: 95%;
+        margin: 0;
+        border-radius: 20px;
+      }
+    }
+  }
+}
+
+.landing-card {
+  border-radius: 12px;
+  background-color: main.$light-color;
+  padding: 4px;
+
+  .card-img-wrapper {
+    border-radius: 32px;
+
+    .card-img {
+      width: 100%;
+      border-radius: 12px;
+    }
+  }
+
+  .landing-card-body {
+    padding: 16px;
+
+    .landing-card-header {
+      margin-bottom: 8px;
+      font-size: 36px;
+      font-weight: bold;
+      line-height: 1.1;
+      color: main.$secondary-color;
+    }
+    .landing-card-text {
+      font-size: main.$text-size;
+      color: main.$secondary-color;
+    }
+  }
+}
+
+.landing-card-title {
+  color: black;
+}
+
+.icon-row {
+  padding-left: 3%;
+}

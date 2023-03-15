@@ -1,0 +1,38 @@
+.landing-navbar {
+  background-color: #82ccf2;
+}
+.landing-navbar .navbar-logo {
+  color: #fefefe;
+  text-decoration: none;
+  font-size: 28px;
+  font-weight: bold;
+  align-items: center;
+  display: flex;
+}
+.landing-navbar .navbar-logo .logo {
+  width: 46px;
+  margin-right: 10px;
+}
+.landing-navbar .navbar-nav {
+  display: flex;
+  justify-content: flex-end;
+}
+.landing-navbar .navbar-nav .navbar-group {
+  margin-inline: 12px;
+}
+.landing-navbar :hover {
+  color: #4266b0 !important;
+}
+
+.nav-group {
+  margin-right: 5%;
+}
+.nav-group .navbar-item {
+  color: white !important;
+  font-size: 18px;
+}
+.nav-group :hover {
+  color: #4266b0 !important;
+}
+
+/*# sourceMappingURL=navbar.css.map */

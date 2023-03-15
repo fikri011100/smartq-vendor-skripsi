@@ -1,0 +1,41 @@
+@use "main";
+
+.dashboard {
+    background-color: main.$primary-color;
+
+    .container{
+        padding: main.$container-padding;
+
+        .dashboard-title {
+            font-size: 36px;
+            font-weight: bold;
+            color: main.$light-color;
+        }
+
+        .dashboard-box {
+            background-color: main.$light-color;
+            padding: 24px;
+            margin: 18px 8px;
+
+            .dashboard-head {
+                height: 150px;
+            }
+
+            .dashboard-box-title {
+                font-size: 28px;
+                font-weight: bold;
+                color: main.$secondary-color;
+            }
+
+            #dropdown-basic {
+                color: main.$dark-color;
+            }
+
+            .jumlah-pengunjung {
+                font-size: 76px;
+                font-weight: bold;
+                color: main.$secondary-color;
+            }
+        }
+    }
+}

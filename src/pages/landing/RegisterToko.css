@@ -1,0 +1,426 @@
+.akar-iconsarrow-left2 {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.component-12 {
+  position: absolute;
+  top: 27px;
+  left: 80px;
+  border-radius: var(--br-lg);
+  width: 188px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-2xs) 0;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+}
+.logo-toko,
+.upload-foto {
+  position: relative;
+  display: inline-block;
+}
+.logo-toko {
+  font-weight: 600;
+}
+.upload-foto {
+  line-height: 140%;
+}
+.auto-layout-vertical {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.media,
+.upload-logo-toko {
+  width: 317px;
+  flex-shrink: 0;
+  display: flex;
+}
+.media {
+  border-radius: var(--br-xs);
+  background-color: var(--color-white2);
+  border: 1px dashed var(--dark-gray);
+  box-sizing: border-box;
+  height: 136px;
+  flex-direction: row;
+  padding: var(--padding-md) var(--padding-3xl);
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-xs);
+  color: var(--secondary-color);
+  font-family: var(--p2);
+}
+.upload-logo-toko {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.text11 {
+  flex: 1;
+  position: relative;
+  line-height: 140%;
+  display: inline-block;
+}
+.nametext-statedefault-icon {
+  align-self: stretch;
+  border-radius: var(--br-xs);
+  background-color: var(--color-white2);
+  border: 1px solid var(--dark-gray);
+  box-sizing: border-box;
+  height: 53px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs);
+  align-items: center;
+  justify-content: center;
+  color: var(--neutral-gray-0);
+  font-family: var(--p2);
+}
+.nama-toko {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  font-size: var(--font-size-base);
+}
+.alamat,
+.auto-layout-horizontal {
+  width: 728px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.auto-layout-horizontal {
+  align-items: flex-end;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-lg);
+}
+.alamat {
+  align-items: flex-start;
+}
+.essentional-icon8 {
+  display: none;
+}
+.arrow-icon,
+.essentional-icon8 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.componentinput7 {
+  align-self: stretch;
+  border-radius: var(--br-xs);
+  background-color: var(--color-white2);
+  border: 1px solid var(--dark-gray);
+  box-sizing: border-box;
+  height: 53px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-sm);
+  color: var(--neutral-gray-0);
+  font-family: var(--p2);
+}
+.hari-awal-buka,
+.hari-operasional {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.hari-awal-buka {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-xs);
+}
+.hari-operasional {
+  width: 728px;
+  flex-direction: row;
+  gap: var(--gap-xl);
+}
+.text17 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  line-height: 140%;
+  display: inline-block;
+}
+.componentinput11,
+.deskripsi3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+input[type=file]{
+  opacity:0;
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+}
+.componentinput11 {
+  align-self: stretch;
+  border-radius: var(--br-xs);
+  background-color: var(--color-white2);
+  border: 1px solid var(--dark-gray);
+  box-sizing: border-box;
+  height: 80px;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: var(--padding-xs);
+  font-size: var(--font-size-base);
+  color: var(--neutral-gray-0);
+  font-family: var(--p2);
+}
+.deskripsi3 {
+  width: 728px;
+  flex-direction: column;
+  gap: var(--gap-xs);
+  font-size: var(--font-size-lg);
+}
+.text21 {
+  position: relative;
+  line-height: 140%;
+  font-weight: 600;
+  display: inline-block;
+}
+.component4 {
+  border-radius: var(--br-sm);
+  background-color: var(--brand-primary);
+  width: 728px;
+  height: 58px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-2xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xs);
+  font-size: var(--font-size-lg);
+  color: var(--color-white2);
+}
+.form-daftar {
+  position: absolute;
+  top: 44px;
+  left: 630px;
+  width: 728px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--text-primary);
+}
+.container-icon2 {
+  position: absolute;
+  top: 114px;
+  left: 85px;
+  width: 78px;
+  height: 82px;
+  overflow: hidden;
+}
+.daftar1 {
+  position: relative;
+  font-weight: 800;
+  display: inline-block;
+}
+.langkah-2-isi-data-toko-deng {
+  position: relative;
+  font-size: var(--p2-size);
+  font-family: var(--p2);
+  color: var(--color-gray-900);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 402px;
+}
+.paragraph-container {
+  position: absolute;
+  top: 228px;
+  left: 85px;
+  width: 402px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  font-size: var(--heading-4-size);
+  color: var(--color-gray-1200);
+}
+.foto-bangunan-toko {
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  font-family: var(--heading-4);
+  color: var(--text-primary);
+  display: inline-block;
+}
+.message-icon {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+}
+.message-icon3 {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+}
+.foto-toko {
+  border-radius: var(--br-xs);
+  background-color: var(--color-white2);
+  border: 1px dashed var(--dark-gray);
+  box-sizing: border-box;
+  width: 506px;
+  height: 164px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-md) var(--padding-3xl);
+  align-items: center;
+  justify-content: center;
+}
+.message-icon1 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.foto-lain,
+.foto-produk {
+  display: flex;
+  flex-direction: row;
+}
+.foto-produk {
+  border-radius: var(--br-xs);
+  background-color: var(--color-white2);
+  border: 1px dashed var(--dark-gray);
+  box-sizing: border-box;
+  width: 250px;
+  height: 109px;
+  flex-shrink: 0;
+  padding: var(--padding-md) var(--padding-3xl);
+  align-items: center;
+  justify-content: center;
+}
+.foto-lain {
+  width: 507px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.thumbnail {
+  gap: var(--gap-md);
+}
+.thumbnail,
+.upload-foto-toko {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.notes {
+  position: relative;
+  display: inline-block;
+}
+.foto-harus-jelas {
+  margin-bottom: 0;
+}
+.foto-harus-jelas-tidak-boleh-b1 {
+  margin: 0;
+  padding-left: var(--padding-lg);
+}
+.foto-harus-jelas-tidak-boleh-b {
+  position: relative;
+  font-size: var(--font-inherit);
+  font-family: var(--font-inherit);
+  color: var(--color-gray-900);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 402px;
+}
+.foto-bangungan,
+.paragraph-container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.paragraph-container1 {
+  width: 402px;
+  gap: var(--gap-md);
+  text-align: center;
+  font-size: var(--font-size-2xl);
+  color: var(--color-gray-1200);
+  font-family: var(--heading-4);
+}
+.foto-bangungan {
+  position: absolute;
+  top: 366px;
+  left: 80px;
+  gap: 52px;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  font-family: var(--p2);
+}
+.daftar-toko {
+  position: relative;
+  background-color: var(--color-gray-100);
+  width: 100%;
+  height: 1000px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--p2-size);
+  color: var(--secondary-color);
+  font-family: var(--heading-4);
+}
+
+.wrapper{
+  display:inline-block;
+  position:relative
+}
+.imagelogo {
+  width: 120px;
+  height: 120px;
+  flex-shrink: 0;
+  margin-top: 15px;
+  position: relative;
+  display: inline-block;
+}
+.imagetoko {
+  width: 120px;
+  height: 120px;
+  flex-shrink: 0;
+  position: relative;
+  display: inline-block;
+}
+
+.buttonBack {
+  cursor: pointer;
+  border: transparent;
+  background-color: transparent;
+  height: 32px;
+  width: 32px;
+  color: transparent;
+  font-size: 1.5em;
+  box-shadow: transparent;
+}

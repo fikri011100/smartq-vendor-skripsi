@@ -1,0 +1,33 @@
+.setelan-navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 20%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.setelan-list a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.setelan-list a.active {
+  background-color: #82ccf2;
+  color: white;
+}
+
+.setelan-list a:hover:not(.active) {
+  background-color: #868686;
+  color: white;
+}
+
+.setelan-main {
+  margin-left: 25%;
+  margin-top: 24px;
+  padding: 1px 16px;
+}
